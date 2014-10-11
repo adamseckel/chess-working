@@ -110,7 +110,7 @@ def board
 		puts x
 		puts g + z + color(49,g1) + z + color(50,g2) + z + color(51,g3) + z + color(52,g4) + z + color(53,g5) + z + color(54,g6) + z + color(55,g7) + z + color(56,g8) + z + g9
 		puts x
-		puts h + z + color(57,h1) + z + color(57,h2) + z + color(59,h3) + z + color(60,h4) + z + color(61,h5) + z + color(62,h6) + z + color(63,h7) + z + color(64,h8) + z + h9
+		puts h + z + color(57,h1) + z + color(58,h2) + z + color(59,h3) + z + color(60,h4) + z + color(61,h5) + z + color(62,h6) + z + color(63,h7) + z + color(64,h8) + z + h9
 		puts x
 
 	end

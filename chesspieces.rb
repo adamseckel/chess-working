@@ -23,7 +23,7 @@ class ChessPieces
   		@position = x
       @moves += 1
   	else
-  		puts "please choose a valid move you silly sausage!"
+  		puts "Please choose a valid move"
   	end
   end
 
