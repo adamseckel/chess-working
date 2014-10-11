@@ -2,6 +2,8 @@
 	require "./player.rb"
 	require "./victory_check.rb"
 	# require "./move_player1.rb"
+	require "./colorize.rb"
+
 
 	class Game
 
