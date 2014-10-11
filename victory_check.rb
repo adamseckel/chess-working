@@ -19,5 +19,6 @@ def victory_check(player)
 		puts "             ~~ Player 1 Wins ~~"
 	else
 		puts "           ~~ #{player}'s' Turn ~~"
+		puts
 	end
 end

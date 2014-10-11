@@ -2,8 +2,9 @@ def board
 
 		x = "   ---- ---- ---- ---- ---- ---- ---- ---- "
 		z = "|"
+		xtra = "    +0   +1   +2   +3   +4   +5   +6   +7  "
 
-		a = " 1"
+		a = "  1"
 		a1 = "" 
 		a2 = "" 
 		a3 = "" 
@@ -14,7 +15,7 @@ def board
 		a8 = "" 
 		a9 = " Player"
 
-		b = " 9"
+		b = "  9"
 		b1 = ""
 		b2 = ""
 		b3 = ""
@@ -24,8 +25,8 @@ def board
 		b7 = ""
 		b8 = ""
 		b9 = " One: #{@pieces_total[1]}"
-
-		c = "17"
+ 
+		c = " 17"
 		c1 = ""
 		c2 = ""
 		c3 = ""
@@ -36,7 +37,7 @@ def board
 		c8 = ""
 		c9 = " "
 
-		d = "25"
+		d = " 25"
 		d1 = ""
 		d2 = ""
 		d3 = ""
@@ -47,7 +48,7 @@ def board
 		d8 = ""
 		d9 = " "
 
-		e = "33"
+		e = " 33"
 		e1 = ""
 		e2 = ""
 		e3 = ""
@@ -58,7 +59,7 @@ def board
 		e8 = ""
 		e9 = " "
 
-		f = "41"
+		f = " 41"
 		f1 = ""
 		f2 = ""
 		f3 = ""
@@ -69,7 +70,7 @@ def board
 		f8 = ""
 		f9 = " "
 
-		g = "49"
+		g = " 49"
 		g1 = ""
 		g2 = ""
 		g3 = ""
@@ -80,7 +81,7 @@ def board
 		g8 = ""
 		g9 = " Player"
 
-		h = "57"
+		h = " 57"
 		h1 = ""
 		h2 = ""
 		h3 = ""
@@ -91,7 +92,10 @@ def board
 		h8 = ""
 		h9 = " Two: #{@pieces_total[2]}" 
 
+		puts
+		puts xtra
 		puts x
+
 		puts a + z + color(1,a1) + z + color(2,a2) + z + color(3,a3) + z + color(4,a4) + z + color(5,a5) + z + color(6,a6) + z + color(7,a7) + z + color(8,a8) + z + a9
 		puts x
 		puts b + z + color(9,b1) + z + color(10,b2) + z + color(11,b3) + z + color(12,b4) + z + color(13,b5) + z + color(14,b6) + z + color(15,b7) + z + color(16,b8) + z + b9
