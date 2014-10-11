@@ -9,5 +9,9 @@ To play in Bash:
 
 Enjoy!
 
+Logic is employed only for pawns. 
+
+Color tba
+
 
 	
