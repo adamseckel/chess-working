@@ -11,7 +11,4 @@ Enjoy!
 
 Logic is employed only for pawns. 
 
-Color tba
-
-
 	
