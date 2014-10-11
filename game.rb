@@ -25,10 +25,10 @@
 	end
 
 	def move_player1(piece, position)
-		@player1.pieces[piece].first.move(position)
+		@player1.pieces[piece][0].move(position)
 		
 		if @player2.pieces.has_key?(position)
-			@player2.pieces[position].first.move(0)
+			@player2.pieces[position][0].move(0)
 		end
 
 		update_player1
